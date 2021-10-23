@@ -10,6 +10,21 @@ h1 {
 	text-align: center;
 }
 
+#p1 {
+	background-color: rosybrown;
+	color: black;
+	}
+
+#p2 {
+	background-color: #A52A2A;
+	color: white;
+}
+
+#p3 {
+	background-color: wheat;
+	color: black;
+}
+
 
 .name {
 	border: 1px solid black;
@@ -22,6 +37,7 @@ h1 {
 	padding-right: 25px;
 	padding-bottom: 5px;
 	padding-left: 25px;
+	font-weight: bold;
 }
 
 .desc {
