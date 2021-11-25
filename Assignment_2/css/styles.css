@@ -1,3 +1,107 @@
 body {
-	font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 16px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/*HEADER*/
+
+#header-nav {
+  border-radius: 0;
+  background-color: grey;
+  min-height: 100px;
+  border: 3px solid black;
+}
+
+.navbar-brand h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  line-height: .75;
+  margin-left: 40px;
+
+}
+
+#nav-list {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+hr {
+  color: black;
+  background-color: black;
+  height: 3px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+  color: black;
+}
+
+.navbar-collapse {
+  border: 0;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -15px;
+}
+
+/*END HEADER*/
+
+/*CONTENT*/
+
+#title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#content {
+  background-color: grey;
+  padding-bottom: 10px;
+}
+
+#main-content {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+}
+/*END CONTENT*/
+
+/*==========EXTRA SMALL DEVICES ONLY==========*/
+@media (max-width: 767px) {
+  
+  /*Header*/
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw; 
+    margin-left: 20px;          
+  }
+  /*END HEADER*/
+
+  /*CONTENT*/
+
+  #main-content {
+  margin-right: 20px;
+  }
+  /*END CONTENT*/
+}
+@media (max-width: 479px) {
+  /*Header*/
+  
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 7vw;
+    margin-left: 15px;
+  }
+    /*END HEADER*/
 }
